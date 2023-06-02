@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.bg-custom-primary{
+  background-color: #002060 !important;
+}
+.bg-custom-secondary{
+  background-color: #4023dc !important;
+}
+.rounded-4px{
+  border-radius: 4px;
+}
+.sidebar {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.sidebar li a {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px 16px;
+  margin: 5px 0;
+  background-color: transparent;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.sidebar-active {
+  background-color: rgb(255,255,255,0.3) !important;
+  border: 1px solid rgb(255,255,255,0.3);
+}
+
+.sidebar li a:hover {
+  background-color: rgb(255,255,255,0.3);
+}
+
+.primary-btn {
+  background-color: #002060;
+}
+
+
+.styeld-left-border {
+  border-left: 5px solid #002060 !important;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+/* asset list start */
+.summary {
+  width: 80%;
+  margin: auto;
+}
+
+/* asset list end */
+
+.paginations {
+  padding: 0;
+  color: #000;
+  list-style: none;
+  width: auto;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0.01px 0.01px 5px rgb(197, 195, 195);
+  border-radius: 5px;
+}
+.paginations li{
+  padding: 5px 10px;
+  margin:5px 0;
+  font-weight: bold;
+  color: rgb(103, 103, 103);
+}
+.actives {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  background-color: #4023dc;
+  font-size: 17px;
+  font-weight: bolder;
+  border-radius: 5px;
+  color: #ffffff !important;
+  transition: all 0.33s;
+}
+.paginate-next-previous-button {
+  color: rgb(177, 177, 177) !important;
+}
+
+
+.login-page {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./../public/background-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(8, 3, 54, 0.8);
+  z-index: -1;
+}
+.search-box {
+  min-width: 300px;
+}
+
+
+
+
+.fileupload-btn {
+  min-width: 300px;
+  width: 800px;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+  .width-md-100 {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:768px) {
+  .search-box {
+    min-width: 100px !important;
+  }
+  .fileupload-btn {
+    max-width: 100px !important;
+  }
+  .h6 {
+    font-size: 16px;
+  }
+}
