@@ -6,7 +6,7 @@
 # 3D Asset Management System frontend
 
 ## Technologies used
-1) TailwindCSS
+1) Bootstrap
 2) ReactJS
 3) ThreeJS
 
