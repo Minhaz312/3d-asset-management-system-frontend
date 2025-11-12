@@ -5,6 +5,11 @@
 
 # 3D Asset Management System frontend
 
+## Technologies used
+1) TailwindCSS
+2) ReactJS
+3) ThreeJS
+
 ## project setup
 ```
 npm install
